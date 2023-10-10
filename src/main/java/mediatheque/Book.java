@@ -18,6 +18,10 @@ public class Book extends Item {
 		this.author = author;
 	}	
 
+	public void print() {
+		System.out.println(this);
+	}
+
 	@Override
 	public String toString() {
 		return "Book{" + super.toString() + ", author=" + author + '}';

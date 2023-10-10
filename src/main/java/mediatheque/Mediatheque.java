@@ -13,7 +13,7 @@ public class Mediatheque {
 	
 	public void printCatalog() {
 		for (Item i : items)
-			System.out.println(i);
+			i.print();
 	}
 	
 	public void printOnlyBooks() {

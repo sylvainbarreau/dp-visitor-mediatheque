@@ -433,12 +433,12 @@
 												"$ref": "AAAAAAGLFSA7q0K+FPU="
 											},
 											"fillColor": "#ffcc99",
-											"font": "Arial;13;0",
+											"font": "Arial;13;2",
 											"left": 645,
 											"top": 245,
 											"width": 102.2353515625,
 											"height": 13,
-											"text": "+toString(): String",
+											"text": "+print()",
 											"horizontalAlignment": 0
 										}
 									],
@@ -695,9 +695,9 @@
 										"$ref": "AAAAAAGLFR74RT6inhg="
 									},
 									"font": "Arial;13;0",
-									"left": 615,
+									"left": 614,
 									"top": 233,
-									"width": 5.05908203125,
+									"width": 6.5,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 25,
@@ -938,7 +938,7 @@
 											"top": 365,
 											"width": 102.2353515625,
 											"height": 13,
-											"text": "+toString(): String",
+											"text": "+print()",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1254,7 +1254,7 @@
 											"top": 367,
 											"width": 121.9765625,
 											"height": 13,
-											"text": "+toString(): String",
+											"text": "+print()",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1529,18 +1529,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGLFR74MD53aRs="
 							},
-							"name": "toString",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAGLFSBxP0LUsak=",
-									"_parent": {
-										"$ref": "AAAAAAGLFSA7q0K+FPU="
-									},
-									"type": "String",
-									"direction": "return"
-								}
-							]
+							"name": "print",
+							"isAbstract": true
 						}
 					]
 				},
@@ -1584,18 +1574,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGLFR9D9T+KNoo="
 							},
-							"name": "toString",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAGLFSFH+UPpdV8=",
-									"_parent": {
-										"$ref": "AAAAAAGLFSEJv0PTlno="
-									},
-									"type": "String",
-									"direction": "return"
-								}
-							]
+							"name": "print"
 						}
 					]
 				},
@@ -1639,18 +1618,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGLFR9RUD/W1zs="
 							},
-							"name": "toString",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAGLFSHX40RQlU4=",
-									"_parent": {
-										"$ref": "AAAAAAGLFSGfqkQ6n4c="
-									},
-									"type": "String",
-									"direction": "return"
-								}
-							]
+							"name": "print"
 						}
 					]
 				}
