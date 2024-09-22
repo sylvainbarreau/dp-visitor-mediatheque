@@ -14,11 +14,13 @@ public abstract class Item {
 		this.title = title;
 	}
 
-	public abstract void print() ;
+	/*public abstract void print() ;
 
-	@Override
+	/*@Override
 	public String toString() {
-		return "title=" + title ;
-	}
+		return "titre : " + title ;
+	} */
+
+	public abstract void accept(ItemVisitor visitor);
 	
 }
