@@ -21,6 +21,6 @@ public abstract class Item {
 		return "titre : " + title ;
 	} */
 
-	public abstract void accept(ItemVisitor visitor);
+	public abstract void accept(Visitor v);
 	
 }

@@ -11,11 +11,11 @@ public class Mediatheque {
 		items.add(i);
 	}
 	
-	public void printCatalog() {
+	public void accept(Visitor v) {
 		for (Item i : items)
-            i.accept(new VisitorItemPrinter());
+            i.accept(v);
 	}
-	
+	/* 
 	public void printOnlyBooks() {
 		/*throw new UnsupportedOperationException("Not supported yet."); 
 		 
@@ -23,9 +23,9 @@ public class Mediatheque {
 		for (Item i : items)
 			if (i instanceof Book)
 				System.out.println(i);
-		*/
+		
 		for (Item i : items)
-            i.accept(new VisitorItemPrinterBook());
+            i.accept(new PrintBooksOnlyVisitor());
 	}
 
 	public void printOnlyCDs() {
@@ -35,10 +35,10 @@ public class Mediatheque {
 		for (Item i : items)
 			if (i instanceof Book)
 				System.out.println(i);
-				*/
-		for (Item i : items)
-            i.accept(new VisitorItemPrinterCD());
-	}
 				
+		for (Item i : items)
+            i.accept(new PrintCDsOnlyVisitor());
+	}
+		*/		
 
 }

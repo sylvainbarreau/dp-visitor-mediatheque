@@ -1,6 +1,6 @@
 package mediatheque;
 
-public class VisitorItemPrinterBook implements ItemVisitor {
+public class PrintBooksOnlyVisitor implements Visitor {
     
     public void visit(Book item) {
         System.out.println("Livre : " + item.getTitle() + " de " + item.getAuthor());

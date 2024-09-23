@@ -1,6 +1,6 @@
 package mediatheque;
 
-public class VisitorItemPrinterCD implements ItemVisitor {
+public class PrintCDsOnlyVisitor implements Visitor {
     
     public void visit(Book item) {
         // on ne fait rien
